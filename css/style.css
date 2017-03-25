@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('http://fonts.googleapis.com/css?family=Roboto:100');
+    font-weight: normal;
+    font-style: normal;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+@media (min-width:900px){
+body {
+  background-size: cover;
+  font: 14px/20px "Lato", Arial, sans-serif;
+  color: #9E9E9E;
+}
+.demo-2 { 
+
+background: #1CD8D2; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #1CD8D2 , #93EDC7); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         }
+.slide-container {
+  margin: auto;
+  width: 470px;
+  text-align: center;
+}
+
+.wrapper {
+  padding-top: 30px;
+}
+.wrapper:focus {
+  outline: 0;
+}
+
+.clash-card {
+  display: inline-block;
+  position: relative;
+  width:400px;
+  text-align: center;
+}
+	#map {
+   float: left;
+   position: absolute;
+   left: 8px;
+   top: 6px;
+   z-index: 1000;
+        height: 57%;
+        width: 96%;
+       }
+#countdown{
+	float: left;
+   position: absolute;
+   top: 80%;
+   z-index: 1000;
+	font-size: 5em;
+        color: #00ffff;
+        width: 100%;
+        height: 100%;
+	}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.slick-prev {
+  left: 0px;
+  z-index: 999;
+}
+
+.slick-next {
+  right: 0px;
+  z-index: 999;	
+}
+}
+@media (min-width:320px) and (max-width: 900px){
+body {
+  background-size: cover;
+  font: 14px/20px "Lato", Arial, sans-serif;
+  color: #9E9E9E;
+}
+.demo-2 { 
+
+background: #1CD8D2; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #1CD8D2 , #93EDC7); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         }
+.slide-container {
+  margin: auto;
+  text-align: center;
+}
+
+.wrapper {
+  padding-top: 20px;
+}
+.wrapper:focus {
+  outline: 0;
+}
+
+.clash-card {
+  display: inline-block;
+  position: relative;
+  width:90%;
+  text-align: center;
+}
+	#map {
+	float: left;
+   position: absolute;
+   left: 8px;
+   top: 6px;
+   z-index: 1000;
+        height: 57%;
+        width: 96%;
+       }
+	#countdown{
+	float: left;
+   position: absolute;
+   top: 80%;
+   z-index: 1000;
+	font-size: 3.5em;
+        color: #00ffff;
+        width: 100%;
+        height: 100%;
+	}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.slick-prev {
+  left: -5px;
+  z-index: 999;
+}
+
+.slick-next {
+  right: -5px;
+  z-index: 999;
+}
+}
